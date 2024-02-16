@@ -15,7 +15,7 @@ int length(node* head)
 	//counts nodes
 	if (head != NULL) //ensures list exists
 	{
-		//itterates through list
+		//itterates, traverses through list
 		for (len; head-> next != NULL; len++) // local <<head>> safe to increment
 		{
 			head = head -> next; //itterates <<head>>
